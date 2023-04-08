@@ -1,0 +1,7 @@
+{
+    "name": "红石相关整合",
+    "parent": "patchouli:category_things",
+    "sortnum": 0,
+    "description": "This is a test category for testing!",
+    "icon": "minecraft:redstone"
+}

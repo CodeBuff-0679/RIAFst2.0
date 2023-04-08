@@ -1,0 +1,25 @@
+
+#Client-only settings
+[Client]
+	#True if stamps should set the picture directly instead of opening the GUI
+	directApplyStamp = false
+	#True to allow MCPaint to optimize picture draw calls in the background to improve performance in the long run
+	optimizePictures = true
+	#Defines how far away the paint on the block should be rendered at max
+	#Range: 64 ~ 256
+	maxPaintRenderDistance = 128
+	#If enabled, mipmaps will be used for far away blocks. Can improve speed and image stability, but also could make images more blurry on farther distance or cause micro lags. Somewhat experimental
+	enableMipMaps = false
+	#Defines the maximum brightness that a picture can have. Helps to reduce oversaturation
+	#Range: 180 ~ 240
+	maxPaintBrightness = 220
+	#The factor how many rects the mip is allowed to have so it is allowed to be used. Saves some memory when performance is not better than no-mip version and provides clearer images, but makes image less stable
+	#Range: 0.0 ~ 1.0
+	maxMipSize = 0.8
+	#How much all color channels can differ so they are merged as one channel in a mip. Value multiplied by mip level. Higher values improve performance, but reduce color clarity
+	#Range: 0 ~ 50
+	maxTotalColorDiffPerMip = 6
+	#How much all color channels can differ so they are merged as one channel in a mip. Value multiplied by mip level. Higher values improve performance, but reduce color clarity
+	#Range: 0 ~ 20
+	maxSingleColorDiffPerMip = 4
+

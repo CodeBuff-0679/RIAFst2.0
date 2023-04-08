@@ -1,0 +1,19 @@
+
+#Settings for the duck
+[duck]
+	#The spawn weight of the duck mob.The higher it is, the higher are the spawn rates. See https://minecraft.fandom.com/wiki/Spawn#Animals for an explanation.
+	#Range: > 0
+	duck_weight = 5
+	#How many ducks should spawn at once in a group.
+	#Range: > 0
+	duck_group_size = 4
+
+#Settings for the goose
+[goose]
+	#The spawn weight of the goose mob.The higher it is, the higher are the spawn rates. See https://minecraft.fandom.com/wiki/Spawn#Animals for an explanation.
+	#Range: > 0
+	goose_weight = 4
+	#How many geese should spawn at once in a group.
+	#Range: > 0
+	goose_group_size = 4
+

@@ -1,0 +1,136 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 7, 2023, 6:18:21 PM
+
+#forge:experience
+- sophisticatedcore:xp_still
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create_things_and_misc:slime
+- create_things_and_misc:flowing_slime
+- create_factory:sweet_berries_jam
+- create_factory:flowing_sweet_berries_jam
+- create_factory:spread
+- create_factory:flowing_spread
+- create_factory:cream
+- create_factory:flowing_cream
+- create_factory:nectar
+- create_factory:flowing_nectar
+- create_factory:apple_jam
+- create_factory:flowing_apple_jam
+- create_factory:sweet_whipped_cream
+- create_factory:flowing_sweet_whipped_cream
+- create_confectionery:black_chocolate
+- create_confectionery:flowing_black_chocolate
+- create_confectionery:white_chocolate
+- create_confectionery:flowing_white_chocolate
+- create_confectionery:hot_chocolate
+- create_confectionery:flowing_hot_chocolate
+- create_confectionery:caramel
+- create_confectionery:flowing_caramel
+- create_confectionery:ruby_chocolate
+- create_confectionery:flowing_ruby_chocolate
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- create_enchantment_industry:flowing_ink
+- create_enchantment_industry:ink
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#caupona:boilable
+- #forge:milk
+- minecraft:water
+
+#caupona:pumice_bloom_grow_on
+- minecraft:water
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#create_enchantment_industry:printer_input
+- create_enchantment_industry:flowing_experience
+- create_enchantment_industry:experience
+- #forge:ink
+
+#create:bottomless/deny
+
+#create_enchantment_industry:blaze_enchanter_input
+- create_enchantment_industry:flowing_experience
+- create_enchantment_industry:experience
+- create_enchantment_industry:flowing_hyper_experience
+- create_enchantment_industry:hyper_experience
+
+#caupona:stews
+- caupona:egg_tongsui
+- caupona:bone_gelatin
+- caupona:fish_soup
+- caupona:pumpkin_soup
+- caupona:bisque
+- caupona:fricassee
+- caupona:stracciatella
+- caupona:nettle_soup
+- caupona:goji_tongsui
+- caupona:mushroom_soup
+- caupona:walnut_soup
+- caupona:egg_drop_soup
+- caupona:custard
+- caupona:poultry_soup
+- caupona:scalded_milk
+- caupona:stock
+- caupona:vegetable_soup
+- caupona:nail_soup
+- caupona:rice_pudding
+- caupona:borscht
+- caupona:borscht_cream
+- caupona:acquacotta
+- caupona:cream_of_meat_soup
+- caupona:dilute_soup
+- caupona:porridge
+- caupona:gruel
+- caupona:meat_soup
+- caupona:okroshka
+- caupona:pumpkin_soup_cream
+- caupona:seaweed_soup
+- caupona:goulash
+- caupona:cream_of_mushroom_soup
+- caupona:fish_chowder
+- caupona:hodgepodge
+- caupona:ukha
+- caupona:congee
+- caupona:vegetable_chowder
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
+
+#forge:honey
+- create:flowing_honey
+- create:honey
+
+#watersource:drink
+- caupona:nail_soup
+
+#caupona:water
+- caupona:stock
+- caupona:nail_soup
+
+#forge:ink
+- create_enchantment_industry:flowing_ink
+- create_enchantment_industry:ink

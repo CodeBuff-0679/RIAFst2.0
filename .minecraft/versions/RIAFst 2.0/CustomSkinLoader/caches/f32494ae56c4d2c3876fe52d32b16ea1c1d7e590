@@ -1,0 +1,8 @@
+{
+  "id" : "3f929cbc9c0c49d5bde70fc884d2399d",
+  "name" : "Hareya_Bironi",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3MTY5NTY2Mzk4MywKICAicHJvZmlsZUlkIiA6ICIzZjkyOWNiYzljMGM0OWQ1YmRlNzBmYzg4NGQyMzk5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYXJleWFfQmlyb25pIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI0MWY4NzIyMWU3NzMyY2RlMzkwMWU5MjU2Njc4YzJjYzlhYTkzYzRjOTZmZmE2OGFjNWUzMjI2OTRjYThiYzQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+  } ]
+}

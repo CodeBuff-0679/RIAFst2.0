@@ -1,0 +1,24 @@
+{
+  "id": "东北边界_1999-64-1999",
+  "name": "东北边界",
+  "groupName": ":Waystones",
+  "displayId": "532551d3-88b7-4735-822c-1323f8cf196c",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": 1999,
+  "y": 64,
+  "z": -1999,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

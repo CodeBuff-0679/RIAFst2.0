@@ -1,0 +1,2 @@
+craftingTable.addShaped("new_lattice", <item:decorative_blocks:lattice>, [[<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>], [<tag:items:minecraft:planks>, <item:minecraft:air>, <item:minecraft:air>], [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+craftingTable.addShaped("shop_sign", <item:buildersaddition:shop_sign_wood>, [[<item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>], [<tag:items:quark:vertical_slab>, <tag:items:quark:vertical_slab>], [<tag:items:quark:vertical_slab>, <tag:items:quark:vertical_slab>]]);

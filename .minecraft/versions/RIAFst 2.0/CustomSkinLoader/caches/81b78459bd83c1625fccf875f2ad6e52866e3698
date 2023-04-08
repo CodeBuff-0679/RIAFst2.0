@@ -1,0 +1,8 @@
+{
+  "id" : "e1dbbca089ad4774bc40fe42bc401ae4",
+  "name" : "Harley",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3MjIwMjM2NjI5NCwKICAicHJvZmlsZUlkIiA6ICJlMWRiYmNhMDg5YWQ0Nzc0YmM0MGZlNDJiYzQwMWFlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYXJsZXkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2NGUzMzVjOGFhOTRiMmU3YWY0Nzg5YTdjNGRhYzlkYmRlZTIxMjQ5MmNhMTAwYzBlZGNmNWQ2ZTk2MDE1OSIKICAgIH0KICB9Cn0="
+  } ]
+}

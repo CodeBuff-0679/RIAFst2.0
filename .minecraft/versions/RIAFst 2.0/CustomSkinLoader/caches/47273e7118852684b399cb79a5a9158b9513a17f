@@ -1,0 +1,8 @@
+{
+  "id" : "602b090e5e0d4b29aedcc573086e06a3",
+  "name" : "AmkiSyto",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3MTY5NjI4ODg1MSwKICAicHJvZmlsZUlkIiA6ICI2MDJiMDkwZTVlMGQ0YjI5YWVkY2M1NzMwODZlMDZhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbWtpU3l0byIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGYzZmFiNDA1MzY4NzdiZjQ1Njk0MmQzMmMxMThlMmUxN2FmMTg2Yzg2NWM2MjM2NzFlYTFkMjdmNGUyOGIzIgogICAgfQogIH0KfQ=="
+  } ]
+}

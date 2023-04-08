@@ -1,0 +1,17 @@
+{
+    "name": "你的好伙伴",
+    "sortnum": 2,
+    "icon": "create:goggles",
+    "category": "patchouli:category_mods_create",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "许多装置可以通过扳手悬浮+滚轮调整的方式来改变一些模式。除此之外，扳手还可以用来旋转和拆卸装置，是每一个工程师必不可少的物品。$(br2)工程师护目镜戴在头部时可以让你看到机器和仪表对应的数值，在背包当中鼠标悬浮相应的提示也会变得更为具体。$(br2)伸缩机械手放在副手时可以使够得到的距离变长，无论是挖掘还是建筑都非常有用。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/wrench",
+            "recipe2": "create:crafting/kinetics/goggles"
+        }
+    ]
+}

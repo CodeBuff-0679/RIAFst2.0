@@ -1,0 +1,8 @@
+{
+  "id" : "fa6dc4b50464496d946f8ab65f10f16b",
+  "name" : "Hakase_Z",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3ODQ5NjEwMzA1NywKICAicHJvZmlsZUlkIiA6ICJmYTZkYzRiNTA0NjQ0OTZkOTQ2ZjhhYjY1ZjEwZjE2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYWthc2VfWiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83YThhMDIxYWQ0YzNmZWQ5OWFiMjg4MzI5ZmY1OTdhZmE2ZWUxYjA2ZGVmZjZiNGM1Y2ZhMDE0Y2I4Y2IxNDk0IgogICAgfQogIH0KfQ=="
+  } ]
+}

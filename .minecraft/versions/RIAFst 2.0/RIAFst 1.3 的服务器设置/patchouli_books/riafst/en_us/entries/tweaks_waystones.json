@@ -1,0 +1,16 @@
+{
+    "name": "传送石碑",
+    "sortnum": 4,
+    "icon": "waystones:waystone",
+    "category": "patchouli:category_tweaks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "传送石碑模组中的所有合成均被移除。$(br2)根据交通的建立会设置双向传送石板作为快速旅行，发展达到一定程度的聚落也可能获得传送石碑。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "waystones:warp_plate"
+        }
+    ]
+}

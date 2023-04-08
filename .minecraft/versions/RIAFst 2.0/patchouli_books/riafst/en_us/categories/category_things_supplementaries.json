@@ -1,0 +1,7 @@
+{
+    "name": "补充",
+    "parent": "patchouli:category_things",
+    "sortnum": 2,
+    "description": "This is a test category for testing!",
+    "icon": "supplementaries:globe"
+}

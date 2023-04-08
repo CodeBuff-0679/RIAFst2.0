@@ -1,0 +1,45 @@
+[2023-04-08 09:17:01] [Render thread INFO] CustomSkinLoader 14.14
+[2023-04-08 09:17:01] [Render thread INFO] DataDir: D:\Minecraft\FST\.minecraft\versions\RIAFst 2.0\CustomSkinLoader
+[2023-04-08 09:17:01] [Render thread INFO] Operating System: Windows 10 (amd64) version 10.0
+[2023-04-08 09:17:01] [Render thread INFO] Java Version: 17.0.1, Microsoft
+[2023-04-08 09:17:01] [Render thread INFO] Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+[2023-04-08 09:17:01] [Render thread INFO] Minecraft: unknown
+[2023-04-08 09:17:01] [Render thread INFO] Config File: D:\Minecraft\FST\.minecraft\versions\RIAFst 2.0\CustomSkinLoader\CustomSkinLoader.json
+[2023-04-08 09:17:01] [Render thread INFO] Try to load config.
+[2023-04-08 09:17:01] [Render thread INFO] Successfully load config.
+[2023-04-08 09:17:01] [Render thread INFO] Add a profile loader: MojangAPI
+[2023-04-08 09:17:01] [Render thread INFO] Add a profile loader: Legacy
+[2023-04-08 09:17:01] [Render thread INFO] Add a profile loader: CustomSkinAPI
+[2023-04-08 09:17:01] [Render thread INFO] Add a profile loader: CustomSKinAPIPlus
+[2023-04-08 09:17:01] [Render thread INFO] Add a profile loader: UniSkinAPI
+[2023-04-08 09:17:01] [Render thread INFO] Add a profile loader: ElyByAPI
+[2023-04-08 09:17:01] [Render thread INFO] Add a profile loader: GlitchlessAPI
+[2023-04-08 09:17:01] [Render thread INFO] Add a profile loader: MinecraftCapesAPI
+[2023-04-08 09:17:01] [Render thread INFO] Successfully update config.
+[2023-04-08 09:17:01] [Render thread INFO] version : 14.14
+[2023-04-08 09:17:01] [Render thread INFO] buildNumber : 347
+[2023-04-08 09:17:01] [Render thread INFO] loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://minecraftcapes.net/profile/" }]
+[2023-04-08 09:17:01] [Render thread INFO] enableDynamicSkull : true
+[2023-04-08 09:17:01] [Render thread INFO] enableTransparentSkin : true
+[2023-04-08 09:17:01] [Render thread INFO] forceIgnoreHttpsCertificate : false
+[2023-04-08 09:17:01] [Render thread INFO] forceLoadAllTextures : false
+[2023-04-08 09:17:01] [Render thread INFO] enableCape : true
+[2023-04-08 09:17:01] [Render thread INFO] threadPoolSize : 3
+[2023-04-08 09:17:01] [Render thread INFO] retryTime : 1
+[2023-04-08 09:17:01] [Render thread INFO] cacheExpiry : 30
+[2023-04-08 09:17:01] [Render thread INFO] forceUpdateSkull : false
+[2023-04-08 09:17:01] [Render thread INFO] enableLocalProfileCache : false
+[2023-04-08 09:17:01] [Render thread INFO] enableCacheAutoClean : false
+[2023-04-08 09:17:01] [Render thread INFO] forceDisableCache : false
+[2023-04-08 09:17:01] [xtaotie233 INFO] Loading xtaotie233's profile.
+[2023-04-08 09:17:01] [xtaotie233 INFO] 1/9 Try to load profile from 'Mojang'.
+[2023-04-08 09:17:01] [xtaotie233 INFO] Default profile will be used.
+[2023-04-08 09:17:01] [xtaotie233 INFO] xtaotie233's profile loaded.
+[2023-04-08 09:17:01] [xtaotie233 INFO] (SkinUrl: http://textures.minecraft.net/texture/17dc8ae51eee40ab7b24e6bc42fc643621a70955e8f1c17a33d129476e8aee4b , Model: slim , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1680959851)
+[2023-04-08 09:17:01] [xtaotie233 DEBUG] Try to request 'http://textures.minecraft.net/texture/17dc8ae51eee40ab7b24e6bc42fc643621a70955e8f1c17a33d129476e8aee4b'.
+[2023-04-08 09:17:01] [xtaotie233 DEBUG] Cache file found (Length: 3869 , Path: 'D:\Minecraft\FST\.minecraft\assets\skins\17\17dc8ae51eee40ab7b24e6bc42fc643621a70955e8f1c17a33d129476e8aee4b' , Expire: 0)
+[2023-04-08 09:17:01] [xtaotie233 DEBUG] Try to request 'http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933'.
+[2023-04-08 09:17:01] [xtaotie233 DEBUG] Cache file found (Length: 705 , Path: 'D:\Minecraft\FST\.minecraft\assets\skins\23\2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933' , Expire: 0)
+[2023-04-08 09:17:02] [Render thread DEBUG] Loading type: SKIN
+[2023-04-08 09:17:02] [Render thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.texture.HttpTexture
+[2023-04-08 09:17:02] [Render thread DEBUG] Loading type: CAPE

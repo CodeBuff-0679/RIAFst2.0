@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "PCL2": {
+      "icon": "Grass",
+      "name": "PCL2",
+      "lastVersionId": "latest-release",
+      "type": "latest-release",
+      "lastUsed": "2023-04-07T14:12:23-04:00"
+    }
+  },
+  "selectedProfile": "PCL2",
+  "clientToken": "4463e954929b40429a2508d7ad0c8be3",
+  "authenticationDatabase": {
+    "00000111112222233333444445555566": {
+      "accessToken": "eyJraWQiOiJhYzg0YSIsImFsZyI6IkhTMjU2In0.eyJ4dWlkIjoiMjUzNTQ2MTU0MDMxNzAxMiIsImFnZyI6IkFkdWx0Iiwic3ViIjoiZTEzODg3ODItNTM5ZC00YjdiLTlhMGItZGRhYTM1MWZkZjFmIiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwicGxhdGZvcm0iOiJVTktOT1dOIiwieXVpZCI6IjFiYmMxNjBiZjdlYjE0YTk4ZjM0ZGU1ZTFiMDBhMzg0IiwibmJmIjoxNjgwOTU5NzE3LCJleHAiOjE2ODEwNDYxMTcsImlhdCI6MTY4MDk1OTcxN30.rdcQ0M99dCmIcBn6628KRpfPHqQqI5RBVZr-1HxGdHc",
+      "username": "xtaotie233",
+      "profiles": {
+        "66666555554444433333222221111100": {
+          "displayName": "xtaotie233"
+        }
+      }
+    }
+  },
+  "selectedUser": {
+    "account": "00000111112222233333444445555566",
+    "profile": "66666555554444433333222221111100"
+  }
+}

@@ -1,0 +1,240 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2022-12-18, 11:30 p.m.
+Description: Unexpected error
+
+java.lang.ExceptionInInitializerError: null
+	at lekavar.lma.drinkbeer.recipes.BrewingRecipe.m_6671_(BrewingRecipe.java:123) ~[drinkbeer-v2.3.5+for+1.18.1.jar%23117!/:2.3.5] {re:classloading}
+	at net.minecraft.world.item.crafting.RecipeManager.m_199905_(RecipeManager.java:165) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {re:mixin}
+	at net.minecraft.world.item.crafting.RecipeManager.m_44024_(RecipeManager.java:164) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.client.multiplayer.ClientPacketListener.m_6327_(ClientPacketListener.java:1168) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:rubidium.mixins.json:features.chunk_rendering.MixinClientPlayNetworkHandler,pl:mixin:APP:journeymap.mixins.json:client.ClientPacketListenerMixin,pl:mixin:APP:farsight.mixins.json:ClientPlayNetHandlerMixin,pl:mixin:APP:crafttweaker.mixins.json:client.transform.multiplayer.MixinClientPacketListener,pl:mixin:APP:untitledduckmod.mixins.json:DuckEggSpawnMixin,pl:mixin:APP:inventorio.mixins.json:client.ClientPlayNetworkHandlerMixin,pl:mixin:APP:flywheel.mixins.json:light.NetworkLightUpdateMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.m_5797_(ClientboundUpdateRecipesPacket.java:32) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.m_5797_(ClientboundUpdateRecipesPacket.java:14) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:computing_frames,re:mixin,re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1015) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:customskinloader:MinecraftTransformer,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:customskinloader:MinecraftTransformer,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:inventorio.mixins.json:client.accessor.MinecraftClientAccessor,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Keybinds,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Images,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:APP:inventorio.mixins.json:client.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:665) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:customskinloader:MinecraftTransformer,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:customskinloader:MinecraftTransformer,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:inventorio.mixins.json:client.accessor.MinecraftClientAccessor,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Keybinds,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Images,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:APP:inventorio.mixins.json:client.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31) ~[fmlloader-1.18.2-40.1.86.jar%2351!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?] {}
+Caused by: java.lang.IllegalStateException: Registry is already frozen (trying to add key ResourceKey[minecraft:recipe_type / drinkbeer:brewing])
+	at net.minecraft.core.MappedRegistry.m_205921_(MappedRegistry.java:78) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.core.MappedRegistry.m_205857_(MappedRegistry.java:87) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.core.MappedRegistry.m_203704_(MappedRegistry.java:83) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.core.MappedRegistry.m_203505_(MappedRegistry.java:129) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.core.Registry.m_194579_(Registry.java:564) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading,re:mixin}
+	at net.minecraft.core.Registry.m_122965_(Registry.java:560) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.item.crafting.RecipeType.m_44119_(RecipeType.java:20) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at lekavar.lma.drinkbeer.registries.RecipeRegistry$Type.<clinit>(RecipeRegistry.java:12) ~[drinkbeer-v2.3.5+for+1.18.1.jar%23117!/:2.3.5] {re:classloading}
+	... 28 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at lekavar.lma.drinkbeer.recipes.BrewingRecipe.m_6671_(BrewingRecipe.java:123) ~[drinkbeer-v2.3.5+for+1.18.1.jar%23117!/:2.3.5] {re:classloading}
+	at net.minecraft.world.item.crafting.RecipeManager.m_199905_(RecipeManager.java:165) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {re:mixin}
+	at net.minecraft.world.item.crafting.RecipeManager.m_44024_(RecipeManager.java:164) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.client.multiplayer.ClientPacketListener.m_6327_(ClientPacketListener.java:1168) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:rubidium.mixins.json:features.chunk_rendering.MixinClientPlayNetworkHandler,pl:mixin:APP:journeymap.mixins.json:client.ClientPacketListenerMixin,pl:mixin:APP:farsight.mixins.json:ClientPlayNetHandlerMixin,pl:mixin:APP:crafttweaker.mixins.json:client.transform.multiplayer.MixinClientPacketListener,pl:mixin:APP:untitledduckmod.mixins.json:DuckEggSpawnMixin,pl:mixin:APP:inventorio.mixins.json:client.ClientPlayNetworkHandlerMixin,pl:mixin:APP:flywheel.mixins.json:light.NetworkLightUpdateMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.m_5797_(ClientboundUpdateRecipesPacket.java:32) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.m_5797_(ClientboundUpdateRecipesPacket.java:14) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:computing_frames,re:mixin,re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:computing_frames,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['xtaotie233'/18280, l='ClientLevel', x=8.50, y=65.00, z=8.50]]
+	Chunk stats: 16384, 0
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (8,64,8), Section: (at 8,0,8 in 0,4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 0 game time, 0 day time
+	Server brand: forge arclight
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.m_6026_(ClientLevel.java:407) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:rubidium.mixins.json:features.chunk_rendering.MixinClientWorld,pl:mixin:APP:rubidium.mixins.json:features.fast_biome_colors.MixinClientWorld,pl:mixin:APP:flywheel.mixins.json:ClientLevelMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:block_rendering.MixinClientLevel,pl:mixin:APP:create.mixins.json:DestroyProgressMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2262) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:customskinloader:MinecraftTransformer,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:customskinloader:MinecraftTransformer,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:inventorio.mixins.json:client.accessor.MinecraftClientAccessor,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Keybinds,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Images,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:APP:inventorio.mixins.json:client.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:687) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:customskinloader:MinecraftTransformer,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:customskinloader:MinecraftTransformer,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:inventorio.mixins.json:client.accessor.MinecraftClientAccessor,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Keybinds,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Images,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:APP:inventorio.mixins.json:client.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[client-1.18.2-20220404.173914-srg.jar%23120!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31) ~[fmlloader-1.18.2-40.1.86.jar%2351!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2339!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: Default, Mod Resources, Immersive Weathering Generated Pack, Supplementaries Generated Pack, quark-emote-pack
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.1, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 1399217824 bytes (1334 MiB) / 3514826752 bytes (3352 MiB) up to 4831838208 bytes (4608 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i7-11700KF @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 167 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 3070
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x2488
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.2225
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 40841.61
+	Virtual memory used (MB): 30421.27
+	Swap memory total (MB): 24576.00
+	Swap memory used (MB): 3227.93
+	JVM Flags: 6 total; -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn256m -Xmx4608m
+	Loaded Shaderpack: (off)
+	NEC status: No NEC detected
+	Launched Version: RIAFst 1.3
+	Backend library: LWJGL version 3.2.2 SNAPSHOT
+	Backend API: NVIDIA GeForce RTX 3070/PCIe/SSE2 GL version 3.2.0 NVIDIA 522.25, NVIDIA Corporation
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: 简体中文 (中国大陆)
+	CPU: 16x 11th Gen Intel(R) Core(TM) i7-11700KF @ 3.60GHz
+	ModLauncher: 9.1.3+9.1.3+main.9b69c82a
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 slf4jfixer PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		kotlinforforge@3.7.1
+		javafml@null
+	Mod List: 
+		[移动][抓钩]grappling_hook_mod-1.18.2-v13.jar         |Grappling Hook Mod            |grapplemod                    |1.18.2-v13          |DONE      |Manifest: NOSIGNATURE
+		[提升][机械动力附属]create_misc_and_things_1.18.2_2.0.jar |create: things and misc       |create_things_and_misc        |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		[建筑][更好的火把放置] torchslabmod-1.18.1_v1.7.5.jar      |Torch Slab Mod                |torchslabmod                  |1.7.5               |DONE      |Manifest: NOSIGNATURE
+		[npc]flashnpcs-1.18.1-1.1.4v2.jar                 |Flash's NPCs                  |flashnpcs                     |1.1.4v2             |DONE      |Manifest: NOSIGNATURE
+		[可选]oculus-flywheel-compat-1.18.2-0.1.8-BETA.jar  |Oculus Flywheel Compat        |irisflw                       |1.18.2-0.1.8-BETA   |DONE      |Manifest: NOSIGNATURE
+		[提升][万用皮肤补丁] CustomSkinLoader_ForgeActive-14.14.ja|CustomSkinLoader              |customskinloader              |14.14               |DONE      |Manifest: 4a:31:8b:cf:34:eb:d0:13:f3:19:39:d5:d2:b9:12:78:b5:f2:8d:91:3e:6f:8f:ed:97:48:00:69:e1:30:3a:54
+		[可选][JEI物品管理器] jei-1.18.2-9.7.1.255.jar           |Just Enough Items             |jei                           |9.7.1.255           |DONE      |Manifest: NOSIGNATURE
+		[核心][往来] Contact-Forge-1.18.2-1.1.3-Release.jar   |Contact                       |contact                       |1.1.3-Release       |DONE      |Manifest: NOSIGNATURE
+		[可选][铷] rubidium-0.5.4.jar                        |Rubidium                      |rubidium                      |0.5.4               |DONE      |Manifest: NOSIGNATURE
+		[依赖]sophisticatedcore-1.18.2-0.5.15.141.jar       |Sophisticated Core            |sophisticatedcore             |1.18.2-0.5.15.141   |DONE      |Manifest: NOSIGNATURE
+		[世界][沉浸式风化] immersive_weathering-1.18.2-3.0.3-forg|Immersive Weathering          |immersive_weathering          |1.18.2-3.0.3        |DONE      |Manifest: NOSIGNATURE
+		[移动][传送石碑]waystones-forge-1.18.2-10.1.0.jar       |Waystones                     |waystones                     |10.1.0              |DONE      |Manifest: NOSIGNATURE
+		[提升]nodami-1.18.2-forge-1.0.0.jar                 |No Damage Immunity(NoDamI) Rel|nodami                        |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		[依赖][银橡前哨] SilveroakOutpost-Forge-1.18.2-1.1.6-Rel|Silveroak Outpost             |silveroakoutpost              |1.1.6-Release       |DONE      |Manifest: NOSIGNATURE
+		[可选][旅行地图] journeymap-1.18.2-5.8.5-forge.jar      |Journeymap                    |journeymap                    |5.8.5               |DONE      |Manifest: NOSIGNATURE
+		[可选][配置界面] configured-2.0.0-1.18.2.jar            |Configured                    |configured                    |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		[建筑][装饰方块] Decorative Blocks-forge-1.18.2-2.1.2.ja|Decorative Blocks             |decorative_blocks             |2.1.2               |DONE      |Manifest: NOSIGNATURE
+		[食物][机械动力甜食] create-confectionery1.18.2_v1.0.8.jar|Create Confectionery          |create_confectionery          |1.0.8               |DONE      |Manifest: NOSIGNATURE
+		[提升][精妙背包] sophisticatedbackpacks-1.18.2-3.18.29.7|Sophisticated Backpacks       |sophisticatedbackpacks        |1.18.2-3.18.29.718  |DONE      |Manifest: NOSIGNATURE
+		pyrotechnicraft-1.18.2-0.1.0.jar                  |Pyrotechnicraft               |pyrotechnicraft               |0.1.0               |DONE      |Manifest: NOSIGNATURE
+		[移动][简单飞机]simpleplanes-1.18.2-4.15.0.jar          |Simple Planes                 |simpleplanes                  |1.18.2-4.15.0       |DONE      |Manifest: NOSIGNATURE
+		[可选]farsight-1.18.2-1.9.jar                       |Farsight mod                  |farsight_view                 |1.18.2-1.9          |DONE      |Manifest: NOSIGNATURE
+		[依赖]balm-3.2.0+0.jar                              |Balm                          |balm                          |3.2.0+0             |DONE      |Manifest: NOSIGNATURE
+		[提升][墙跳]walljump-forge-1.18.1-1.3.7.jar           |Wall-Jump!                    |walljump                      |1.18.1-1.3.7        |DONE      |Manifest: NOSIGNATURE
+		[建筑][地毯楼梯]carpetstairsmod-1.18.1_v1.4.8.jar       |Carpet Stairs Mod             |carpetstairsmod               |1.4.8               |DONE      |Manifest: NOSIGNATURE
+		[可选]JEITweaker-1.18.2-3.0.0.9.jar                 |JEI Tweaker                   |jeitweaker                    |3.0.0.9             |DONE      |Manifest: NOSIGNATURE
+		[世界]Terralith_v2.2.3.jar                          |Terralith                     |terralith                     |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		[核心][修改合成]CraftTweaker-forge-1.18.2-9.1.197.jar   |CraftTweaker                  |crafttweaker                  |9.1.197             |DONE      |Manifest: NOSIGNATURE
+		[依赖]cloth-config-6.4.90-forge.jar                 |Cloth Config v4 API           |cloth_config                  |6.4.90              |DONE      |Manifest: NOSIGNATURE
+		forge-1.18.2-40.1.86-universal.jar                |Forge                         |forge                         |40.1.86             |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		[世界][村庄重做]CTOV-v2-9-2.jar                         |ChoiceTheorem's Overhauled Vil|ctov                          |2.9.1               |DONE      |Manifest: NOSIGNATURE
+		[提升][鸭]untitledduckmod-0.5.0-forge.jar            |Untitled Duck Mod             |untitledduckmod               |0.5.0               |DONE      |Manifest: NOSIGNATURE
+		[依赖]selene-1.18.2-1.17.9.jar                      |Selene                        |selene                        |1.18.2-1.17.9       |DONE      |Manifest: NOSIGNATURE
+		[建筑][补充]supplementaries-1.18.2-1.5.13.jar         |Supplementaries               |supplementaries               |1.18.2-1.5.13       |DONE      |Manifest: NOSIGNATURE
+		client-1.18.2-20220404.173914-srg.jar             |Minecraft                     |minecraft                     |1.18.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		[食物][农夫乐事]FarmersDelight-1.18.2-1.2.0.jar         |Farmer's Delight              |farmersdelight                |1.18.2-1.2.0        |DONE      |Manifest: NOSIGNATURE
+		[食物]culturaldelights-1.18.2-0.14.jar              |Cultural Delights             |culturaldelights              |1.18.2-0.14         |DONE      |Manifest: NOSIGNATURE
+		[世界][放大化下界] Amplified_Nether_v1.1.1.jar           |Amplified Nether              |amplifiednether               |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		[npc]taterzens-1.9.6-forge.jar                    |Taterzens                     |taterzens                     |1.9.6               |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.18-2.21.jar                 |Mouse Tweaks                  |mousetweaks                   |2.21                |DONE      |Manifest: NOSIGNATURE
+		[可选][玉] Jade-1.18.2-forge-5.2.6.jar               |Jade                          |jade                          |5.2.6               |DONE      |Manifest: NOSIGNATURE
+		[依赖]CreativeCore_FORGE_v2.6.15_mc1.18.2.jar       |CreativeCore                  |creativecore                  |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		[提升]inventorio-1.18-forge-1.7.5.jar               |Inventorio                    |inventorio                    |1.7.5               |DONE      |Manifest: NOSIGNATURE
+		[食物][下界乐事] NethersDelight-1.18.2-2.2.0.jar        |Nethers Delight               |nethersdelight                |2.2                 |DONE      |Manifest: NOSIGNATURE
+		[食物]FarmersRespite-1.18.2-1.3.0.jar               |Farmer's Respite              |farmersrespite                |1.18.1-1.3.0        |DONE      |Manifest: NOSIGNATURE
+		[提升]curios-forge-1.18.2-5.0.7.1.jar               |Curios API                    |curios                        |1.18.2-5.0.7.1      |DONE      |Manifest: NOSIGNATURE
+		[依赖][飞轮] flywheel-forge-1.18.2-0.6.5.jar          |Flywheel                      |flywheel                      |0.6.5               |DONE      |Manifest: NOSIGNATURE
+		[核心][机械动力] create-1.18.2-0.5.0.e.jar              |Create                        |create                        |0.5.0.e             |DONE      |Manifest: NOSIGNATURE
+		[提升][机械动力附属]Steam_Rails-1.18.2-1.0.3.jar          |Create: Steam 'n Rails        |railways                      |1.18.2-1.0.3        |DONE      |Manifest: NOSIGNATURE
+		[核心][帕秋莉]Patchouli-1.18.2-71.1.jar                |Patchouli                     |patchouli                     |1.18.2-71.1         |DONE      |Manifest: NOSIGNATURE
+		[可选]oculus-1.4.3.jar                              |Oculus                        |oculus                        |1.4.3               |DONE      |Manifest: NOSIGNATURE
+		[提升][墓碑] gravestone-1.18.2-1.0.1.jar              |Gravestone Mod                |gravestone                    |1.18.2-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		[依赖]AutoRegLib-1.7-53.jar                         |AutoRegLib                    |autoreglib                    |1.7-53              |DONE      |Manifest: NOSIGNATURE
+		[提升][夸克] Quark-3.2-358.jar                        |Quark                         |quark                         |3.2-358             |DONE      |Manifest: NOSIGNATURE
+		[建筑][三格大门]DramaticDoors-Forge-1.18.2-2.1.4.jar    |Dramatic Doors                |dramaticdoors                 |1.18.2-2.1.4        |DONE      |Manifest: NOSIGNATURE
+		[提升][储物抽屉] StorageDrawers-1.18.2-10.2.1.jar       |Storage Drawers               |storagedrawers                |10.2.1              |DONE      |Manifest: NOSIGNATURE
+		[建筑][斜角栅栏]DiagonalFences-v3.1.0-1.18.2.jar        |Diagonal Fences               |diagonalfences                |3.1.0               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		[建筑]buildersaddition-1.18.2-20220308a.jar         |Builders Crafts & Addition    |buildersaddition              |1.18.2-20220308a    |DONE      |Manifest: NOSIGNATURE
+		[可选][创世神] worldedit-mod-7.2.10.jar                |WorldEdit                     |worldedit                     |7.2.10+1742f98      |DONE      |Manifest: NOSIGNATURE
+		[提升][火把弓] [1.18.x][Forge]TorchBowMod_v1.1.jar     |TorchBowMod                   |torchbowmod                   |1.1                 |DONE      |Manifest: NOSIGNATURE
+		appleskin-forge-mc1.18.2-2.4.1.jar                |AppleSkin                     |appleskin                     |2.4.1+mc1.18.2      |DONE      |Manifest: NOSIGNATURE
+		[可选]lightfallclient-1.0.3.jar                     |LightfallClient               |lightfallclient               |1.0.3+13            |DONE      |Manifest: NOSIGNATURE
+		[建筑][风铃]Chimes-1.1.2-1.18.2.jar                   |Chimes                        |chimes                        |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		[依赖]PuzzlesLib-v3.3.5-1.18.2-Forge.jar            |Puzzles Lib                   |puzzleslib                    |3.3.5               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		[可选]JadeAddons-1.18.2-forge-2.4.1.jar             |Jade Addons                   |jadeaddons                    |2.4.1               |DONE      |Manifest: NOSIGNATURE
+		[依赖]geckolib-forge-1.18-3.0.56.jar                |GeckoLib                      |geckolib3                     |3.0.56              |DONE      |Manifest: NOSIGNATURE
+		[食物][分茶]caupona-1.18.2-0.4.3.jar                  |Caupona                       |caupona                       |1.18.2-0.4.3        |DONE      |Manifest: NOSIGNATURE
+		drinkbeer-v2.3.5+for+1.18.1.jar                   |Drink Beer                    |drinkbeer                     |2.3.5               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: c09843cc-8472-4d1e-888a-288a8c197be3
+	Flywheel Backend: GL33 Instanced Arrays
+	FML: 40.1
+	Forge: net.minecraftforge:40.1.86

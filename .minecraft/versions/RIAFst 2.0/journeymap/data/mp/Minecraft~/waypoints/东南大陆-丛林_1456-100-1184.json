@@ -1,0 +1,24 @@
+{
+  "id": "东南大陆-丛林_1456-100-1184",
+  "name": "东南大陆 丛林",
+  "groupName": ":Waystones",
+  "displayId": "140d43b7-ed51-40b9-ab28-daa0d6112a2d",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": 1456,
+  "y": 100,
+  "z": 1184,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

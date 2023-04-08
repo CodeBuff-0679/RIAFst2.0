@@ -1,0 +1,22 @@
+{
+  "id": "e_1000-251-1080",
+  "name": "e",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--11525237-waypoint-icon.png",
+  "x": 1000,
+  "y": 251,
+  "z": -1080,
+  "r": 80,
+  "g": 35,
+  "b": 139,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

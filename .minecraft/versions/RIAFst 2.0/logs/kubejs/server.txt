@@ -1,0 +1,48 @@
+[09:16:30] [INFO ] Hello, World! (You will see this line every time server resources reload)
+[09:16:30] [INFO ] Loaded script server_scripts:script.js in 0.001 s
+[09:16:30] [INFO ] Loaded 1/1 KubeJS server scripts in 0.009 s
+[09:16:30] [INFO ] Scripts loaded
+[09:16:30] [INFO ] Scanning recipes...
+[09:16:39] [WARN ] Failed to parse recipe 'create_confectionery:chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[09:16:39] [WARN ] Failed to parse recipe create_confectionery:chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[09:16:39] [WARN ] Failed to parse recipe 'carpetstairsmod:poisonous_mushroom_wood_floor[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'extendedmushrooms:poisonous_mushroom_slab'
+[09:16:39] [WARN ] Failed to parse recipe carpetstairsmod:poisonous_mushroom_wood_floor[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'extendedmushrooms:poisonous_mushroom_slab'
+[09:16:39] [WARN ] Failed to parse recipe 'immersive_weathering:waxed_cut_iron_stairs_from_waxed_plate_iron_stonecutting[minecraft:stonecutting]': "immersive_weathering:waxed_cut_copper_stairs" is not a valid result!
+[09:16:39] [WARN ] Failed to parse recipe 'carpetstairsmod:mushroom_wood_floor[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'extendedmushrooms:mushroom_slab'
+[09:16:39] [WARN ] Failed to parse recipe carpetstairsmod:mushroom_wood_floor[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'extendedmushrooms:mushroom_slab'
+[09:16:39] [WARN ] Failed to parse recipe 'create_factory:walnut_brownie_recipe[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ecologics:walnut'
+[09:16:39] [WARN ] Failed to parse recipe create_factory:walnut_brownie_recipe[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'ecologics:walnut'
+[09:16:39] [WARN ] Failed to parse recipe 'caupona:water_level/plain_water[watersource:water_level_item]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: watersource:water_level_item
+[09:16:39] [WARN ] Failed to parse recipe caupona:water_level/plain_water[watersource:water_level_item]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'watersource:water_level_item'
+[09:16:39] [WARN ] Failed to parse recipe 'create_factory:spread[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ecologics:walnut'
+[09:16:39] [WARN ] Failed to parse recipe create_factory:spread[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'ecologics:walnut'
+[09:16:39] [WARN ] Failed to parse recipe 'culturaldelights:cutting/avocado_log[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[09:16:39] [WARN ] Failed to parse recipe culturaldelights:cutting/avocado_log[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[09:16:39] [WARN ] Failed to parse recipe 'carpetstairsmod:glowshroom_wood_floor[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'extendedmushrooms:glowshroom_slab'
+[09:16:39] [WARN ] Failed to parse recipe carpetstairsmod:glowshroom_wood_floor[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'extendedmushrooms:glowshroom_slab'
+[09:16:39] [WARN ] Failed to parse recipe 'create_confectionery:ruby_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[09:16:39] [WARN ] Failed to parse recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[09:16:39] [WARN ] Failed to parse recipe 'create_confectionery:black_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[09:16:39] [WARN ] Failed to parse recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[09:16:39] [WARN ] Failed to parse recipe 'immersive_weathering:waxed_plate_iron_stairs_from_stonecutting[minecraft:stonecutting]': "immersive_weathering:waxed_plate_copper_stairs" is not a valid result!
+[09:16:39] [WARN ] Failed to parse recipe 'culturaldelights:cutting/avocado_wood[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[09:16:39] [WARN ] Failed to parse recipe culturaldelights:cutting/avocado_wood[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[09:16:39] [WARN ] Failed to parse recipe 'caupona:thirst/thermos_water[watersource:thirst_item]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: watersource:thirst_item
+[09:16:39] [WARN ] Failed to parse recipe caupona:thirst/thermos_water[watersource:thirst_item]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'watersource:thirst_item'
+[09:16:39] [WARN ] Failed to parse recipe 'create_confectionery:white_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[09:16:39] [WARN ] Failed to parse recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[09:16:39] [WARN ] Failed to parse recipe 'caupona:water_level/nail_soup[watersource:water_level_item]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: watersource:water_level_item
+[09:16:39] [WARN ] Failed to parse recipe caupona:water_level/nail_soup[watersource:water_level_item]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'watersource:water_level_item'
+[09:16:39] [WARN ] Failed to parse recipe 'caupona:water_level/dilute_soup[watersource:water_level_item]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: watersource:water_level_item
+[09:16:39] [WARN ] Failed to parse recipe caupona:water_level/dilute_soup[watersource:water_level_item]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'watersource:water_level_item'
+[09:16:39] [WARN ] Failed to parse recipe 'caupona:water_level/wooden_cup_nail_soup[watersource:water_level_fluid]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: watersource:water_level_fluid
+[09:16:39] [WARN ] Failed to parse recipe caupona:water_level/wooden_cup_nail_soup[watersource:water_level_fluid]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'watersource:water_level_fluid'
+[09:16:39] [WARN ] Failed to parse recipe 'create_things_and_misc:schematic_chair[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_things_and_misc:deleted_mod_element'
+[09:16:39] [WARN ] Failed to parse recipe create_things_and_misc:schematic_chair[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'create_things_and_misc:deleted_mod_element'
+[09:16:39] [WARN ] Failed to parse recipe 'culturaldelights:fermenting/pickle[brewinandchewin:fermenting]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: brewinandchewin:fermenting
+[09:16:39] [WARN ] Failed to parse recipe culturaldelights:fermenting/pickle[brewinandchewin:fermenting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'brewinandchewin:fermenting'
+[09:16:39] [INFO ] Found 6551 recipes and 0 failed recipes in 191.9 ms
+[09:16:39] [INFO ] Posted recipe events in 428.1 μs
+[09:16:39] [INFO ] Modified & removed recipes in 120.0 ms
+[09:16:39] [INFO ] Added recipes in 504.2 μs
+[09:16:39] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

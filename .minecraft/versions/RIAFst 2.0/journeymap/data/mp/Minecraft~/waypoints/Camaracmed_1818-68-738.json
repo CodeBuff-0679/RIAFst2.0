@@ -1,0 +1,24 @@
+{
+  "id": "Camaracmed_1818-68-738",
+  "name": "Camaracmed",
+  "groupName": ":Waystones",
+  "displayId": "e21ec7a4-2b99-445a-ad12-bf1f6640d8ac",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": 1818,
+  "y": 68,
+  "z": -738,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

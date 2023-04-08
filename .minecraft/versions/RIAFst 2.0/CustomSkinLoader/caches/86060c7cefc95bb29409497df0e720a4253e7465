@@ -1,0 +1,8 @@
+{
+  "id" : "c2a0694fc3304a15a103da69e47668bf",
+  "name" : "AiuRFAR",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3MTQzMDIwMDk2MiwKICAicHJvZmlsZUlkIiA6ICJjMmEwNjk0ZmMzMzA0YTE1YTEwM2RhNjllNDc2NjhiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXVSRkFSIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg1OGM3MjIzYTgxM2QyOGJjZTI5MGRlYTcxNDRhOTcwNjNjOTc4MDBmMTY5ZmEzYjYzMzRjNzM4NGM0M2JlZGYiCiAgICB9CiAgfQp9"
+  } ]
+}

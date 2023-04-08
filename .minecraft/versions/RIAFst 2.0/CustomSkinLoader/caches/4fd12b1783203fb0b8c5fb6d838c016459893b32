@@ -1,0 +1,8 @@
+{
+  "id" : "2ec087ab6c8b4c248aa322bcbb5b9bea",
+  "name" : "XiuRanYun",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3MjIwMjQ4ODk2NiwKICAicHJvZmlsZUlkIiA6ICIyZWMwODdhYjZjOGI0YzI0OGFhMzIyYmNiYjViOWJlYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJYaXVSYW5ZdW4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0ZmJlOTUwOTI4NmE0NWJhNGRiNTMzY2MyMTZkOThlNjcxZTJkM2EyMGJmYzM3ODViZjVlYjk3YWIxNjljMCIKICAgIH0KICB9Cn0="
+  } ]
+}
