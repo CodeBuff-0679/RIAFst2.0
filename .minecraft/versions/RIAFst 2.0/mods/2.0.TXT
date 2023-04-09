@@ -6,7 +6,7 @@
 [世界][村庄重做]CTOV-v2-9-2.jar
 [世界][沉浸式风化] immersive_weathering-1.18.2-3.0.3-forge.jar
 [依赖]architectury-4.10.88-forge.jar
-[依赖]AutoRegLib-1.7-53.jar
+[依赖]AutoRegLib-1.7-53.jar	
 [依赖]balm-3.2.0+0.jar
 [依赖]cloth-config-6.4.90-forge.jar
 [依赖]CreativeCore_FORGE_v2.6.15_mc1.18.2.jar
@@ -47,7 +47,6 @@
 [提升][万用皮肤补丁] CustomSkinLoader_ForgeActive-14.14.jar
 [提升][储物抽屉] StorageDrawers-1.18.2-10.2.1.jar
 [提升][合金]alloyed-1.18.2-v1.4e.jar
-[提升][墓碑] gravestone-1.18.2-1.0.1.jar
 [提升][墙跳]walljump-forge-1.18.1-1.3.7.jar
 [提升][夸克] Quark-3.2-358.jar
 [提升][搬运] carryon-1.18.2-1.17.0.8.jar
@@ -72,19 +71,44 @@
 [食物][喝啤酒啦]DrinkBeer-Forge1.18.1-c1bfa09c30.jar
 [食物][机械动力甜食] create-confectionery1.18.2_v1.0.8.jar
 
+2.0新增
 [优化][铁氧体磁芯]ferritecore-4.2.1-forge
-[优化][光照优化]radon-0.8.1.jar
+[优化][经验球]Clumps-forge-1.18.2-8.0.	0+17
+[优化][噪声消除]bwncr-3.13.21
+[优化][熔炉优化]FastFurnace-1.18.2-6.0.3
+[优化][工作台优化]FastWorkbench-1.18.2-6.1.1
+[优化][配方优化]FastSuite-1.18.2-3.0.2
+[提升][古代地图]antiqueatlas-7.1.1-forge-mc1.18.2
+[提升][三明治]some-assembly-required-1.18.2-2.0.8
+[提升][自定义卡牌]CustomCards-1.1.0
+[提升][机械动力x乐事]sliceanddice-1.1.3
+[辅助][时装盔甲]CosmeticArmorReworked-1.18.2-v2
+[辅助][合成辅助]craftingtweaks-forge-1.18.2-14.0.3
+[辅助]torchmaster-18.1.0.jar
+[核心][元][雕刻]ChiselsBits-forge-1.18.2-1.2.116-universal
+[核心][元][涂鸦]mcpaint-1.8.0
+[核心][元][时装]armourersworkshop-forge-1.18.2-2.0.0-beta.18
+[核心][卡牌]Buddycards-1.18.2-3.2.1
+[核心][卡牌扩展]BuddycardsExpansions-1.18.1-1.1.4
 [可选][FPS节省]FpsReducer2-forge-1.18.2-2.0
 [可选][mod目录]catalogue-1.6.1-1.18.2.jar
 [可选][键位冲突显示]Controlling-forge-1.18.2-9.0+22.jar
-[优化][经验球]Clumps-forge-1.18.2-8.0.	0+17
-[优化][噪声消除]bwncr-3.13.21
-[辅助][时装盔甲]CosmeticArmorReworked-1.18.2-v2
-[辅助][合成辅助]craftingtweaks-forge-1.18.2-14.0.3
-[核心][雕刻]ChiselsBits-forge-1.18.2-1.2.116-universal
-[核心][涂鸦]mcpaint-1.8.0
-[核心][时装]armourersworkshop-forge-1.18.2-2.0.0-beta.18
 [可选][鼠标手势]MouseTweaks-forge-mc1.18-2.21 (1)
-[提升][古代地图]antiqueatlas-7.1.1-forge-mc1.18.2
 [可选][进度]BetterAdvancements-1.18.2-0.2.0.146
 [可选][按键]defaultoptions-forge-1.18.2-14.1.2
+[依赖]kubejs-create-forge-1802.2.2-build.28
+[依赖][开放式加载器]OpenLoader-Forge-1.18.2-12.0.1
+[依赖]Placebo-1.18.2-6.6.6
+[建筑][机械动力晶莹剔透]create_crystal_clear-0.1.3e-1.18.2
+
+
+[提升][四季修复]sereneseasonfix-1.18.2-1.0.6
+[提升][四季]SereneSeasons-1.18.2-7.0.0.15
+[提升][遗体]corpse-1.18.2-1.0.1
+[提升][季节hud]seasonhud-1.18.2-1.4.10
+[辅助][时装盔甲]CosmeticArmorReworked-1.18
+[依赖]lootjs-forge-1.18.2-2.7.7
+[依赖]TerraBlender-forge-1.18.2-1.2.0.126
+[建筑]镇守府ChinjufuMod[1.18.2]6.2.4
+[依赖]YungsApi-1.18.2-Forge-2.2.9
+[依赖][abnormal]blueprint-1.18.2-5.5.0
