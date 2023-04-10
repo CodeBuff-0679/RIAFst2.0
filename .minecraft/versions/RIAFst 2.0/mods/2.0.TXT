@@ -112,3 +112,15 @@
 [建筑]镇守府ChinjufuMod[1.18.2]6.2.4
 [依赖]YungsApi-1.18.2-Forge-2.2.9
 [依赖][abnormal]blueprint-1.18.2-5.5.0
+[世界][Yung矿井]YungsBetterMineshafts-1.18.2-Forge-2.2
+[世界][Yung水井]YungsExtras-1.18.2-Forge-2.1.0
+[世界][Yung地牢]YungsBetterDungeons-1.18.2-Forge-2.1.0
+[提升][标题]TravelersTitles-1.18.2-Forge-2.1.1
+[世界][Yung桥]YungsBridges-1.18.2-Forge-2.1.0
+[世界][Yung女巫]YungsBetterWitchHuts-1.18.2-Forge-1.0.1
+[辅助][放东西]plonk-1.18.2-10.0.4
+[辅助][坐]sit-1.18.2-1.3.3
+[辅助][坐]personality-1.18.2-2.0.0
+[核心][元][相框]OPF-13
+[可选][第三人称]BetterThirdPerson-Forge-1.18.2-1.9.0
+[提升][铁轨]moreminecarts-1.4.7
