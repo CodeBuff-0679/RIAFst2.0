@@ -1,31 +1,37 @@
 
 [general]
+	#Should any block growth mechanics occur?
 	block_growths = true
 	creative_tab = false
 	grass_over_mycelium = true
 	mycelium_over_grass = true
 
 [mossy_blocks]
+	#How much influence should neighboring mossy blocks have on moss spreading?
 	#Range: 0.0 ~ 1.0
-	interest_for_face = 0.3
+	interest_for_face = 0.1
+	#How patchy should moss growth be?
 	#Range: 0.0 ~ 1.0
-	patchiness = 0.5
+	patchiness = 0.3
 	#Range: 0.0 ~ 1.0
-	immune_chance = 0.4
+	#What should be the chance for random blocks to be naturally immune to mossing
+	immune_chance = 0.1
 	needs_air = true
 
 [cracked_blocks]
+	#How much influence should neighboring cracked blocks have on crack spreading?
 	#Range: 0.0 ~ 1.0
-	interest_for_face = 0.6
+	interest_for_face = 0.3
 	#Range: 0.0 ~ 1.0
-	patchiness = 0.4
+	patchiness = 0.2
 	#Range: 0.0 ~ 1.0
-	immune_chance = 0.4
-	needs_air = false
+	immune_chance = 0.1
+	needs_air = true
 
 [icicle]
+	#Should Icicles fall in response to loud noises nearby?
 	react_to_vibrations = true
-	#Range: 1 ~ 1001
+	#Range: 1 ~ 1001	
 	spawn_rarity = 12
 
 [freezing]
@@ -34,19 +40,26 @@
 	water_increment = 3
 	#Range: 0 ~ 1000
 	icicle = 300
+	#How severe should permafrost freezing be?
 	#Range: 0 ~ 5
 	permafrost_increment = 2
 
 [charring]
+	#What should the chance for wood to become charred when burned by fire be?
 	#Range: 0.0 ~ 1.0
 	fire_chars_wood = 0.3
+	#What should the chance for ash to be formed when a block is burned be?
 	#Range: 0.0 ~ 1.0
 	ash_spawn = 0.3
+	#Should soot form above fires and on surfaces adjacent to campfire smoke?
 	soot_spawn = true
+	#Should cobwebs be flammable?
 	flammable_cobweb = true
 
 [generation]
+	#Should Cryosol and Permafrost generate in the world?
 	cryosol_feature = true
+	#Should Humus generate in the world?
 	humus_feature = true
 	fluvisol_feature = true
 	silt_feature = true
@@ -83,7 +96,7 @@
 	muddy_water_enabled = true
 
 [misc]
-	mulch_grows_crops = true
+	mulch_grows_crops = false
 	composter_dirt = true
 	generic_bark = ""
 	feather_falling_farmers = true
@@ -95,11 +108,11 @@
 [leaf_piles]
 	leaf_piles_slow = true
 	#Range: 0.0 ~ 1.0
-	spawn_entity_from_decay = 0.3
+	spawn_entity_from_decay = 0.001
 	#Range: 0.0 ~ 1.0
-	leaf_piles_spawn_chance = 0.005
+	leaf_piles_spawn_chance = 0.0001
 	#Range: 1 ~ 256
-	reach = 12
+	reach = 8
 	#Range: 1 ~ 8
 	max_pile_height = 3
 	#leaves that wont spawn leaf piles
@@ -111,7 +124,7 @@
 [lightning_growths]
 	vitrified_lightning = true
 	#Range: 0.0 ~ 1.0
-	fulgurite_chance = 0.4
+	fulgurite_chance = 0.2
 
 [rusting]
 	rusting = true
