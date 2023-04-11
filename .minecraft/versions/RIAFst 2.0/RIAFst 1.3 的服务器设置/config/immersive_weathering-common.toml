@@ -60,7 +60,7 @@
 	#Should Cryosol and Permafrost generate in the world?
 	cryosol_feature = true
 	#Should Humus generate in the world?
-	humus_feature = true
+	humus_feature = false
 	fluvisol_feature = true
 	silt_feature = true
 	vertisol_feature = true
