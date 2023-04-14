@@ -60,9 +60,11 @@ onEvent('block.break',event => {
         event.cancel();
     }
 })
+
+
 //没什么用但万一有用呢
-// onEvent('block.modification', event => {
+//onEvent('block.break', event => {
 //     event.modify('storagedrawers:oak_full_drawers_1', block => {
 //       block.destroySpeed = 0.00001
-//     })
-//   })
+ //    })
+//})

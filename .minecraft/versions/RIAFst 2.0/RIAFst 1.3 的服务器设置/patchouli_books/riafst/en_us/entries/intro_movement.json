@@ -1,7 +1,7 @@
 {
     "name": "移动",
     "sortnum": 0,
-    "icon": "grapplemod:grapplinghook",
+    "icon": "minecraft:andesite",
     "category": "patchouli:category_intro",
     "pages": [
         {
@@ -10,7 +10,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "grapplemod:grapplebow"
+            "recipe": "minecraft:andesite"
         }
     ]
 }
