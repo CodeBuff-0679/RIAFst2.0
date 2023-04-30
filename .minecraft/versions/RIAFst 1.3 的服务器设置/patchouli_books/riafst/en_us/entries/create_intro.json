@@ -1,0 +1,17 @@
+{
+    "name": "安山合金&安山机壳",
+    "sortnum": 0,
+    "icon": "create:andesite_casing",
+    "category": "patchouli:category_mods_create",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "安山机壳是机械动力最基础的合成材料之一，需要手持安山合金右键点击任何去皮原木获得。$(br2)安山合金由安山岩和铁粒/锌粒合成而来。我们推荐在前期使用锌粒，但由于后期铁是极易获得的可再生资源，达成自动化之后不妨开始使用铁粒合成安山合金。$(br2)如果你有困难找到足够多的安山岩，可以尝试$(l:https://github.com/AstralOrdana/Immersive-Weathering/wiki/Custom-Generators)沉浸风化中的特殊石头生成机制$(/l)。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/materials/andesite_alloy",
+            "recipe2": "create:crafting/materials/andesite_alloy_from_zinc"
+        }
+    ]
+}

@@ -1,7 +1,0 @@
-{
-    "name": "夸克",
-    "parent": "patchouli:category_things",
-    "sortnum": 1,
-    "description": "This is a test category for testing!",
-    "icon": "quark:rainbow_rune"
-}

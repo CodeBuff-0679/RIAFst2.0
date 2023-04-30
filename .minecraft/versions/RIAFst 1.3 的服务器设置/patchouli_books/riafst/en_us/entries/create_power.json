@@ -1,0 +1,18 @@
+{
+    "name": "动力装置",
+    "sortnum": 1,
+    "icon": "create:water_wheel",
+    "category": "patchouli:category_mods_create",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/hand_crank",
+            "text": "对于小规模一次性的生产，手摇曲柄永远都是一个不错的选择，但要小心不要把自己饿死。除此之外，水车和风车是一直用得到的动力源。$(br2)水车可以简单而快速地获得动力，并且方便堆叠。一个竖直的水车可以轻松得到7格水的推力，得到256su的应力和16rpm的转速（水平放置可能得到320su/20rpm）。放置时请注意水的流向和水车叶片的方向。$(br2)风车是可以轻松获得大量应力的装置，每8个连接的帆/羊毛提供1rpm的转速和512su的应力。如果无法获得强力胶组装风车，你可以尝试使用机壳底盘/旋转底盘来连接羊毛和方块。帆会自动连接到轴承所连接的第一个方块。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/water_wheel",
+            "recipe2": "create:crafting/kinetics/windmill_bearing"
+        }
+    ]
+}

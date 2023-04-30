@@ -1,0 +1,423 @@
+#########################################################################################
+#                                                                                       #
+# UltimateAutoRestart, a free resource by Norska @ https://norska.dev                   #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
+#                                                                                       #
+# You are editing the messages.yml file of UltimateAutoRestart.                         #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# NOTE: PLEASE READ BEFORE CONFIGURING!                                                 #
+#                                                                                       #
+# If PlaceholderAPI is installed you can use any placeholder inside messages,           #
+# make sure to properly install any extension using /papi ecloud.                       #
+#                                                                                       #
+# Placeholders that are inside {} (e.g {0}, {1}) are inner placeholders.                #
+# To use PAPI's placeholders, use them normally, like %player_gamemode%, etc.           #
+#                                                                                       #
+# Scopes:                                                                               #
+# 1) Global -> All online players will get the message.                                 #
+# 2) User -> User that executed commands/triggered event will get the message.          #
+# 3) Limited -> Only users/systems with specific perms will get the message.            #
+#                                                                                       #
+# Note: Scopes are per message and cannot be manually altered.                          #
+#                                                                                       #
+#########################################################################################     
+
+# Note: Whether or not to strip colors from messages shown to console (to display issues with some panels).
+stripConsole: false
+messages:
+
+   # Note: Use {PREFIX} &f» in any message to add the below prefix!
+  prefix: <GRADIENT:5efce8>&lRIAZth Restart</GRADIENT:736efe>&r
+  EVENT_INTERVAL_GLOBAL:
+   # Placeholders: {0} = interval
+   # Scope: Global
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» 您所在的世界服务器将在 &d{0} &f后重启!'
+    actionbar:
+      enabled: true
+      content: '{PREFIX} &f» 将于 &d{0} &f后重启!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRestarting in &d{0}&f!'
+         
+  EVENT_INTERVAL_CONSOLE:
+   # Placeholders: {0} = interval
+   # Scope: Limited -> Console only
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» 将在 &d{0} &f后重启!'
+         
+  EVENT_RESTART_GLOBAL:
+   # Placeholders: None
+   # Scope: Global
+    chatMessage:
+      enabled: true
+      centered: true
+      content:
+      - ''
+      - '{PREFIX} &f» &f重启中... 请稍后再来吧!'
+      - ''
+    actionbar:
+      enabled: true
+      content: '&f重启中... 请稍后再来吧!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRestarting... join back soon!'
+         
+  EVENT_RESTART_DELAY_GLOBAL:
+   # Placeholders: {0} = interval
+   # Scope: Global
+    chatMessage:
+      enabled: false
+      centered: false
+      content:
+      - ''
+      - '{PREFIX} &f» &fThe restart has been delayed by &d{0}&f!'
+      - ''
+    actionbar:
+      enabled: true
+      content: '{PREFIX} &f» &f重启已被延时了 &d{0}&f!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRestart has been delayed by &d{0}&f!'
+         
+  EVENT_RESTART_DELAY_STAFF:
+   # Placeholders: {0} = interval
+   # Scope: Limited -> uar.notifydelay
+    chatMessage:
+      enabled: false
+      centered: false
+      content:
+      - ''
+      - '{PREFIX} &f» &fThe restart has been delayed by &d{0}&f!'
+      - ''
+    actionbar:
+      enabled: false
+      content: '&c(Staff) {PREFIX} &f» &fThe restart has been delayed by &d{0}&f!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRestart has been delayed by &d{0}&f!'
+
+   ############################### 
+      
+  COMMAND_USER_VIEWINTERVAL:
+   # Placeholders: {0} = interval, {1} = time since last restart
+   # Scope: User
+    chatMessage:
+      enabled: true
+      centered: true
+      content:
+      - ''
+      - '{PREFIX} &f» &f将在 &d{0} &f后重启!'
+      - '&7&o(上次重启时间为 {1} 之前)&r'
+      - ''
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fRestarting in &d{0}&f!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRestarting in &d{0}&f!'
+         
+   ###############################  
+      
+  COMMAND_FORCE_RESTART:
+   # Placeholders: {0} = interval
+   # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» &f已设置 &d{0} &f后重启的定时任务.'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &f将于 &d{0} &f后重启!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fForced the restart. Restarting in &d{0}&f!'
+         
+  COMMAND_FORCE_RESTART_GLOBAL:
+   # Placeholders: {0} = interval, {1} = user that forced restart
+   # Scope: Global
+    chatMessage:
+      enabled: false
+      centered: true
+      content:
+      - ''
+      - '{PREFIX} &f» &c{1} &fforced a restart. &fRestarting in &d{0}&f!'
+      - ''
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &c{1} true&fforced a restart. &fRestarting in &d{0}&f!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRestarting in &d{0}&f!'
+         
+  COMMAND_FORCE_RESTART_WITH_REASON:
+   # Placeholders: {0} = interval
+   # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» &f新安排了一次重启. 将在 &d{0} &f后进行!'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fForced the restart w/ reason. &fRestarting in &d{0}&f!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fForced the restart w/ reason. Restarting in &d{0}&f!'
+         
+  COMMAND_FORCE_RESTART_GLOBAL_WITH_REASON:
+   # Placeholders: {0} = interval, {1} = user that forced restart, {2} = reason
+   # Scope: Global
+    chatMessage:
+      enabled: true
+      centered: true
+      content:
+      - ''
+      - '{PREFIX} &f» &c{1} &f安排了一次重启. &f将在 &d{0} &f后进行!'
+      - '&7&o原因:&r {2}'
+      - ''
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &c{1} &fforced a restart. &fRestarting in &d{0}&f! &7&oReason:&r
+        {2}'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRestarting in &d{0}&f! &7&o(&r{2}&7&o)'
+         
+  COMMAND_FORCE_RESTART_INVALID:
+   # Placeholders: {0} = input
+   # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - ''
+      - ' {PREFIX} &f» &f无法计划重启因为你给出的时间不合法!'
+      - ''
+      - '  &d详情:'
+      - '  &7• &d你的参数: &f{0}'
+      - '  &7• &d期望参数: &f正整秒数 (如 60)'
+      - ''
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fCould not force restart because your interval argument
+        is faulty!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fYour command is faulty!'
+
+   ###############################
+
+  COMMAND_DELAY_RESTART:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» &f延迟了重启至 &d{0} &f后!'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fDelayed the restart. &fRestarting in &d{0}&f!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fDelayed a restart. Restarting in &d{0}&f!'
+  COMMAND_DELAY_RESTART_GLOBAL:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: false
+      centered: false
+      content:
+      - ''
+      - '{PREFIX} &f» &c一个管理员推迟了重启. &f下次重启将在 &d{0} &f后!'
+      - ''
+    actionbar:
+      enabled: true
+      content: '{PREFIX} &f» &c一个管理员推迟了重启. &f下次重启将在 &d{0} &f后!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRestarting in &d{0}&f!'
+  COMMAND_DELAY_RESTART_INVALID:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - ' {PREFIX} &f» &f无法推迟重启, 你给出的参数不合法!'
+      - '  &d详情:'
+      - '  &7• &d你的参数: &f{0}'
+      - '  &7• &d期望参数: &f正整秒数 (如 60)'
+      - ''
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fCould not delay restart because your interval argument
+        is faulty!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fYour command is faulty!'
+  COMMAND_DELAY_RESTART_NOT_POSSIBLE:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - ' {PREFIX} &f» &fCould not delay restart because the restart is stopped!'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fCould not delay restart because the restart is stopped!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fCould not delay restart!'
+
+   ###############################
+
+  COMMAND_STOP_RESTART:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» &f你已取消计划中的重启!'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fYou have cancelled the autorestart!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fCancelled the autorestart!'
+  COMMAND_STOP_RESTART_GLOBAL:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» &c一个管理员取消了计划中的重启.'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &cAn admin cancelled the autorestart!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fAn admin cancelled the restart!'
+  COMMAND_STOP_RESTART_FAIL:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» &fCould not cancel autorestart, it was not running!'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fCould not cancel autorestart, it was not running!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fNo scheduled restart running!'
+
+   ###############################
+
+  COMMAND_DEBUG_SUCCESS:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - ''
+      - ' {PREFIX} &f» &fRunning debug for: &d&l{0}'
+      - ' &7(Make sure the feature is enabled when doing this!)'
+      - ''
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fRunning debug for: &d&l{0}'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fRunning debug for: &d&l{0}'
+  COMMAND_DEBUG_INVALID:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - ''
+      - ' {PREFIX} &f» &fCould not use debug command! Missing/Invalid argument!'
+      - ''
+      - '  &dDetails:'
+      - '  &7• &dYour argument: &f{0}'
+      - '  &7• &dExpected argument: &fWebhook'
+      - ''
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fCould not use debug command! Missing/Invalid argument!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fCould not use debug command! Missing/Invalid argument!'
+
+   ###############################
+
+  COMMAND_RELOAD:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» &f成功重载配置文件. &7(&f{0}ms&7)'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fReloaded configuration files. &7(&f{0}ms&7)'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fReloaded configuration!'
+  COMMAND_NOPERMISSION:
+      # Placeholders: None
+      # Scope: User
+    chatMessage:
+      enabled: true
+      centered: false
+      content:
+      - '{PREFIX} &f» &fYou do not have permission to run this command!'
+    actionbar:
+      enabled: false
+      content: '{PREFIX} &f» &fYou do not have permission to run this command!'
+    titles:
+      enabled: false
+      titleContent: '{PREFIX}'
+      subtitleContent: '&fYou do not have permission!'

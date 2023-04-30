@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Riako_Aka",
+      "uniqueId": "329aa481-f213-36d6-a4ee-47f217ff90a3"
+    },
+    "time": 1671434042951,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/q93nCTC4ee"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Riako_Aka",
+      "uniqueId": "329aa481-f213-36d6-a4ee-47f217ff90a3"
+    },
+    "time": 1671432803559,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MUWL7SD3Vs"
+    }
+  }
+]

@@ -1,7 +1,0 @@
-{
-    "name": "机械动力",
-    "parent": "patchouli:category_things",
-    "sortnum": 3,
-    "description": "This is a test category for testing!",
-    "icon": "create:wrench"
-}

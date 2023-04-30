@@ -1,0 +1,17 @@
+{
+    "name": "联系与往来",
+    "sortnum": 3,
+    "icon": "contact:mail",
+    "category": "patchouli:category_intro",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "铁路与邮政是Fst的主要玩法。$(br2)每个人可以制作自己的邮箱并绑定，但用于寄送明信片和包裹的邮筒则被安置在具有「邮局」作用的位置。$(br2)与其他的「邮局」或聚落在主世界以机械动力的铁路连接之后，可以联系管理员在车站附近部署一个「邮局」，放置邮筒和售卖明信片的NPC，以及沿铁路线的传送点。$(br2)区域建设程度达到一定程度之后，可以申请特供的自定义明信片，以及在区域布置售卖特产的或是沿特定路线游荡的NPC。$(br)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "contact:white_mailbox",
+            "recipe2": "contact:wrapping_paper"
+        }
+    ]
+}

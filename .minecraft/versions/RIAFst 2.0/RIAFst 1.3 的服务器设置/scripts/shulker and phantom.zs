@@ -1,3 +1,0 @@
-craftingTable.addShaped("new_folding", <item:simpleplanes:folding>, [[<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>], [<item:minecraft:piston>, <tag:items:forge:gems/diamond>, <item:minecraft:piston>], [<item:minecraft:air>, <item:create:sturdy_sheet>, <item:minecraft:air>]]);
-craftingTable.addShapeless("new_pocket_book", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "inventorio:deep_pockets" as string}]}), [<item:create:sturdy_sheet>, <item:create:sturdy_sheet>, <item:minecraft:book>]);
-craftingTable.addShapeless("leather_to_membrane", <item:minecraft:phantom_membrane>, [<item:minecraft:leather>]);

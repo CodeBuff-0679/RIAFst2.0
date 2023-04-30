@@ -1,7 +1,0 @@
-{
-    "name": "RIA:Laputa指南",
-    "landing_text": "欢迎来到RIA:Laputa，$(playername)！$(br2)本书将会教会你Laputa的大多数玩法，所以我们非常建议至少阅读「玩法介绍」和「规则」部分，并将本书保存好，在遇到困难时方便查阅。$(br2)如果你不慎将本书丢失，可以回到出生岛屿再次领取。$(br2)祝你在这里玩得愉快！",
-    "book_texture": "patchouli:textures/gui/book_red.png",
-    "show_progress": false,
-    "version": 1
-}
